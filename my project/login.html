@@ -1,0 +1,133 @@
+
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" href="calcul.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <div id="container2">
+        <div class="test">
+    	
+        <form id="register"> 
+            <input id="name" type="text" placeholder="Name" value=""/>
+            <input id="pass" type="password" placeholder="Password" value=""/>
+            <!-- <input id="btn" type="submit" value="creat account" />  -->
+            <button id="btn">creat account</button>
+        </form>
+
+        <form id="logins"> 
+            <input id="username" type="text" placeholder="Enter UserName" value=""/>
+            <input id="userpass" type="password" placeholder="Enter your Password" value=""/>
+            <!-- <input id="loginBtn" type="submit" value="Login" />  -->
+            <button id="loginbtn">login</button>
+
+       </form>
+    </div>
+    <div class="clcl">
+        <p class='clock'></p>
+    <div class="container">
+    <input class="output1" type="text" id="result"/>
+    <input id="btn1" class="button" type="button" value="clear" onclick="cleardsiplay()" >
+    <input id="btn2" class="button" type="button" value="/" onclick="display('/')">
+    <input id="btn3" class="button" type="button" value="*" onclick="display('*')">
+    <input id="btn4" class="button" type="button" value="-" onclick="display('-')">
+    <input id="btn5" class="button" type="button" value="+" onclick="display('+')">
+    <input id="btn6" class="button" type="button" value="." onclick="display('.')">
+    <input id="btn7" class="button" type="button" value="0" onclick="display('0')">
+    <input id="btn8" class="button" type="button" value="1" onclick="display('1')">
+    <input id="btn9" class="button" type="button" value="2" onclick="display('2')">
+    <input id="btn10" class="button" type="button" value="3" onclick="display('3')">
+    <input id="btn11" class="button" type="button" value="4" onclick="display('4')">
+    <input id="btn12" class="button" type="button" value="5" onclick="display('5')">
+    <input id="btn13" class="button" type="button" value="6" onclick="display('6')">
+    <input id="btn14" class="button" type="button" value="7" onclick="display('7')">
+    <input id="btn15" class="button" type="button" value="8" onclick="display('8')">
+    <input id="btn16" class="button" type="button" value="9" onclick="display('9')">
+    <input id="btn17" class="button" type="button" value="=" onclick="total('=')">
+    <button class="click">CALENDAR</button>
+
+
+
+    </div>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="login.js"></script>
+    <script src="calcul.js"></script>
+<style>/*body {
+        background-color: #F3EBF6;
+        font-family: 'Ubuntu', sans-serif;
+    }
+/*#register {
+        background-color: #FFFFFF;
+        width: 400px;
+        height: 400px;
+        margin: 7em auto;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        padding-top: 40px;
+    }*
+    #loginBtn{
+        padding-top: 40px;
+        color: #8C55AA;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+         cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right,#ff4000, #ff4000);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 35%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);top:100px;}
+
+
+        #btn {
+        /*padding-top: 40px;*
+        color: #8C55AA;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+         cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, #ff4000,#ff4000);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        top:100px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 35%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);}
+        #name{
+        	left: 400px;
+  position: relative;
+        }
+        #pass{
+        	left: 400px;
+  position: relative;
+        }
+        #username{left: 400px;
+  position: relative;}
+  #userpass{
+  	left: 400px;
+  position: relative;
+
+  }
+      
+    </style>
+    </body>
+  
+</html>
